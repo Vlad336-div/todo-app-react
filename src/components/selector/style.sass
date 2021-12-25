@@ -1,0 +1,29 @@
+.selector-wrap
+  position: absolute
+  bottom: 50px
+  right: 50px
+  .selector
+    cursor: pointer
+    border: 1px solid $dark
+    font-weight: 300
+    padding: 10px
+    color: $dark
+    display: inline-block
+    text-transform: uppercase
+
+  .selector-options
+    opacity: 0
+    border: 1px solid $dark
+    .option
+      padding: 10px
+      text-align: center
+      text-transform: uppercase
+      cursor: pointer
+      transition: all 0.3s
+
+      &:hover
+        color: $white
+        background: $dark
+
+  .show-options
+    opacity: 1

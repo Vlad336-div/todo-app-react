@@ -1,0 +1,252 @@
+{
+  "login": {
+    "login": {
+      "en": "Login",
+      "ru": "Войти"
+    },
+    "your_email": {
+      "en": "Your email",
+      "ru": "Ваш email"
+    },
+    "your_password": {
+      "en": "Your password",
+      "ru": "Ваш пароль"
+    },
+    "reset_password": {
+      "en": "Reset password",
+      "ru": "Восстановить пароль"
+    },
+    "dont_have_an_account_yet": {
+      "en": "Don't have an account yet?",
+      "ru": "Ещё нет аккаунта?"
+    },
+    "register_now": {
+      "en": "Register now!",
+      "ru": "Зарегистрироваться!"
+    }
+  },
+  "registration": {
+    "registration": {
+      "en": "Registration",
+      "ru": "Регистрация"
+    },
+    "your_email": {
+      "en": "Your email",
+      "ru": "Ваш email"
+    },
+    "your_password": {
+      "en": "Your password",
+      "ru": "Ваш пароль"
+    },
+    "repeat_password": {
+      "en": "Repeat password",
+      "ru": "Повторите пароль"
+    },
+    "have_account": {
+      "en": "Already have an account?",
+      "ru": "Уже есть аккаунт?"
+    },
+    "login": {
+      "en": "Login!",
+      "ru": "Войти!"
+    }
+  },
+  "home": {
+    "home": {
+      "en": "Home",
+      "ru": "Главная"
+    },
+    "logout": {
+      "en": "Logout",
+      "ru": "Выйти"
+    },
+    "edit_password": {
+      "en": "Edit password",
+      "ru": "Изменить пароль"
+    },
+    "edit_email": {
+      "en": "Edit email",
+      "ru": "Изменить email"
+    },
+    "no_todos": {
+      "en": "No todos",
+      "ru": "Нет задач"
+    },
+    "all_todos": {
+      "en": "All todos",
+      "ru": "Всего задач"
+    },
+    "completed_todos": {
+      "en": "Completed todos",
+      "ru": "Выполнено"
+    },
+    "input_todo": {
+      "en": "Input todo",
+      "ru": "Введите задачу"
+    },
+    "add_todo": {
+      "en": "Add todo",
+      "ru": "Создать задачу"
+    }
+  },
+  "modals": {
+    "reset_pass": {
+      "reset_pass": {
+        "en": "Reset password",
+        "ru": "Сбросить пароль"
+      },
+      "enter_email": {
+        "en": "Enter your password recovery email.",
+        "ru": "Введите email для восстановления"
+      },
+      "input_email": {
+        "en": "Input email",
+        "ru": "Введите email"
+      },
+      "send": {
+        "en": "Send",
+        "ru": "Отправить"
+      }
+    },
+    "unverify": {
+      "email_is_dont_verifyed": {
+        "en": "Your email is don`t verified!",
+        "ru": "Ваш email не верефицирован"
+      },
+      "confirm_email": {
+        "en": "To confirm your email, send the confirmation link to your email using the button below",
+        "ru": "Чтобы подтвердить свой адрес электронной почты, отправьте ссылку для подтверждения на свой адрес электронной почты, используя кнопку ниже."
+      },
+      "send_confirm": {
+        "en": "Send confirm email",
+        "ru": "Отправить письмо для потверждения"
+      }
+    },
+    "edit_email": {
+      "edit_email": {
+        "en": "Edit email",
+        "ru": "Изменить email"
+      },
+      "input_email": {
+        "en": "Input email",
+        "ru": "Введите email"
+      },
+      "edit": {
+        "en": "Edit",
+        "ru": "Изменить"
+      }
+    },
+    "update_pass": {
+      "update_pass": {
+        "en": "Update password",
+        "ru": "Изменить пароль"
+      },
+      "old_pass": {
+        "en": "Old password",
+        "ru": "Старый пароль"
+      },
+      "new_pass": {
+        "en": "New password",
+        "ru": "Новый пароль"
+      },
+      "repeat_new_pass": {
+        "en": "Repeat new password",
+        "ru": "Повторите новый пароль"
+      },
+      "update": {
+        "en": "Update",
+        "ru": "Изменить"
+      }
+    },
+    "verify_email": {
+      "verify_email": {
+        "en": "Your email is verified!",
+        "ru": "Ваш email верефицирован!"
+      }
+    }
+  },
+  "todos": {
+    "delete": {
+      "en": "Delete",
+      "ru": "Удалить"
+    },
+    "months": {
+      "Jan": {
+        "en": "Jan",
+        "ru": "Янв"
+      },
+      "Feb": {
+        "en": "Feb",
+        "ru": "Фев"
+      },
+      "Mar": {
+        "en": "Mar",
+        "ru": "Мар"
+      },
+      "Apr": {
+        "en": "Apr",
+        "ru": "Апр"
+      },
+      "May": {
+        "en": "May",
+        "ru": "Май"
+      },
+      "Jun": {
+        "en": "Jun",
+        "ru": "Июнь"
+      },
+      "Jul": {
+        "en": "Jul",
+        "ru": "Июль"
+      },
+      "Aug": {
+        "en": "Aug",
+        "ru": "Авг"
+      },
+      "Sep": {
+        "en": "Sep",
+        "ru": "Сен"
+      },
+      "Oct": {
+        "en": "Oct",
+        "ru": "Окт"
+      },
+      "Nov": {
+        "en": "Nov",
+        "ru": "Нояб"
+      },
+      "Dec": {
+        "en": "Dec",
+        "ru": "Дек"
+      }
+    }
+  },
+  "errors": {
+    "incorrect_email": {
+      "en": "Incorrect email",
+      "ru": "Некорректный email"
+    },
+    "incorrect_pass": {
+      "en": "Incorrect password",
+      "ru": "Некорректный пароль"
+    },
+    "pass_dont_match": {
+      "en": "Passwords don`t match",
+      "ru": "Пароли не совпадают"
+    }
+  },
+  "filter": {
+    "all": {
+      "en": "All",
+      "ru": "Все"
+    },
+    "completed": {
+      "en": "Completed",
+      "ru": "Выполненные"
+    },
+    "not_completed": {
+      "en": "Not completed",
+      "ru": "Не выполненные"
+    }
+  }
+}

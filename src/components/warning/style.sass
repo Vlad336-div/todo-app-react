@@ -1,0 +1,18 @@
+.warning-component
+  position: fixed
+  bottom: 50px
+  left: 50%
+  transform: translateX(-50%)
+  padding: 15px 0
+  background: $dark
+  color: $white
+  font-weight: 700
+  text-align: center
+  width: 400px
+  z-index: 2
+
+@media screen and (max-width: 480px)
+  .warning-component
+    width: 250px !important
+    font-size: 14px
+    padding: 15px 20px

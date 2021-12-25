@@ -1,0 +1,68 @@
+.modal-wrap
+  background: rgba(0, 0, 0, 0.4)
+  position: fixed
+  top: 0
+  left: 0
+  height: 100vh
+  width: 100%
+  z-index: 1
+
+  .modal
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    background: $white
+    padding: 50px
+    max-width: 400px
+    width: 90%
+
+    &.email-modal
+      img
+        display: block
+        margin: 10px auto
+
+    .input-wrap
+      margin-top: 10px
+
+    .input-component
+      border: 1px solid $dark
+      border-radius: 0
+
+      &.border-error
+        border-color: $light-red
+
+    .error-input
+      color: $light-red
+      margin: 5px 0
+      font-size: 12px
+      cursor: pointer
+
+    .btn-component
+      padding: 15px 40px
+      font-weight: 700
+      color: $white
+      border-radius: 0
+      background: $dark
+      margin: 10px auto 0
+      display: block
+
+    h1
+      font-weight: 700
+      text-align: center
+      color: $dark
+      font-size: 24px
+
+    p
+      font-weight: 700
+      margin-top: 20px
+      color: $dark
+
+
+@media screen and (max-width: 600px)
+  .modal
+    h1
+      font-size: 24px
+    .input-component
+      &::placeholder
+        font-size: 16px

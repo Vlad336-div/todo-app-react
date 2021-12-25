@@ -1,0 +1,113 @@
+.login-wrap
+  display: flex
+  height: 100vh
+
+  .left-block
+    background-size: cover
+    background-image: url(../../img/pattern3.jpg)
+    flex: 1
+    position: relative
+
+    .text
+      position: absolute
+      top: 150px
+      left: 50px
+
+      p
+        color: $white
+        font-weight: 700
+        font-size: 48px
+
+
+  .right-block
+    flex: 1
+    background: $white
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-evenly
+    position: relative
+
+    p
+      color: $dark
+      text-align: center
+
+      a
+        color: $dark
+
+    form
+      display: flex
+      flex-direction: column
+
+      .error-input
+        text-align: left
+        color: $light-red
+        margin: 5px 0
+        font-size: 12px
+        cursor: pointer
+
+      .border-error
+        border-color: $light-red !important
+
+      p
+        margin-top: 20px
+        cursor: pointer
+
+      h2
+        color: $dark
+        text-align: center
+        font-weight: 700
+        margin-bottom: 20px
+
+      .input-wrap-login
+        margin: 0 0 10px 0
+
+        .input-wrap
+
+          .input-login
+            width: 400px
+            border-radius: 0
+            border: 1px solid $dark
+
+      .btn-login
+        width: 400px
+        background: $dark
+        border-radius: 0
+        color: $white
+        padding: 20px
+
+      .google
+        margin-top: 10px
+        background: $light-red !important
+        display: flex
+        justify-content: center
+        align-items: center
+
+        img
+          width: 15px
+          margin-right: 10px
+
+
+@media screen and (max-width: 900px)
+  .right-block
+    form
+      .input-login
+        width: 300px !important
+
+      .btn-login
+        width: 300px !important
+
+@media screen and (max-width: 700px)
+  .login-wrap
+    flex-direction: column
+
+    .left-block
+      height: 120px
+      flex: none !important
+
+      .text
+        top: 50% !important
+        transform: translateY(-50%)
+
+        p
+          font-size: 32px !important

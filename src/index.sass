@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap')
+
+$dark: #072c2d
+$grey: #24666c
+$white: #ebeed9
+$light-yellow: #c1bf85
+$light-red: #c3716b
+
+@import "./components/user-data/style.sass"
+@import "./components/button/style.sass"
+@import "./components/input/style.sass"
+@import "./components/todos/style.sass"
+@import "./components/todos/todo/style.sass"
+@import "./components/checkbox/style.sass"
+@import "./components/newTodo/style.sass"
+@import "./components/warning/style.sass"
+@import "./components/login/style.sass"
+@import "./components/registration/style.sass"
+@import "./components/Loader/style.sass"
+@import "./components/404/style.sass"
+@import "./components/modals/style.sass"
+@import "./components/noTodos/style.sass"
+@import "./components/selector/style.sass"
+@import "./components/filters/style.sass"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: 'Montserrat', sans-serif
+  font-weight: 300
+
+body
+  background: $white
+
+.container-home
+  max-width: 1200px
+  margin: 30px auto
+  position: relative
+
+@media screen and (max-width: 1200px)
+  .container-home
+    margin: 10px 0 0 0
+    padding: 0 10px
